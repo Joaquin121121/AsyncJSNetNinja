@@ -1,0 +1,3 @@
+JS --> single threaded language. 1 statement at a time
+
+HTTP request are made to API endpoints
