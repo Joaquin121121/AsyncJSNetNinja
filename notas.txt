@@ -1,3 +1,19 @@
 JS --> single threaded language. 1 statement at a time
 
 HTTP request are made to API endpoints
+
+XML ReadyStates
+
+Value	State	Description
+0	UNSENT	Client has been created. open() not called yet.
+1	OPENED	open() has been called.
+2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
+3	LOADING	Downloading; responseText holds partial data.
+4	DONE	The operation is complete.
+
+status: 200 --> OK
+        404 --> endpoint doesnt exist
+        400s --> client error
+        500s --> server error
+        mas info: https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
